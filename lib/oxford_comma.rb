@@ -1,3 +1,3 @@
-def oxford_comma(["kiwi"])
- return
+def oxford_comma(array = ["kiwi"])
+ return array.split()
 end
