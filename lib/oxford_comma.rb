@@ -1,5 +1,5 @@
 def oxford_comma(
   ["kiwi"]
   )
- return kiwi.split("")
+ return split()
 end
