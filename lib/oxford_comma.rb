@@ -1,7 +1,11 @@
 def oxford_comma(
-  ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
-  )
-  if oxford_comma << "kiwi"
-    return oxford_comma.split("")
+  if array.length == 2
+  array[-2] << " and "
+  array.join
+  elsif array.length == 1
+  	array.join
+  elsif array.length > 2
+    array[-1].prepend "and "
+	array.join(", ")
   end
 end
