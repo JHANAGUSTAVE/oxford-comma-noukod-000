@@ -1,5 +1,2 @@
-def oxford_comma(
-  ["kiwi"]
-  )
- return split()
+def oxford_comma()
 end
